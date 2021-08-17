@@ -9,7 +9,7 @@ import { connect } from 'react-redux'
 const Display = ({counter}) => {
     return (
         <div>
-            <p>Count:{counter}</p>
+            <h1>Count:{counter}</h1>
         </div>
     )
 }
